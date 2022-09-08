@@ -1,46 +1,75 @@
-# readme-generator-refactor 
+# ReadMe Gen
 
-## Description
+  ![License Badge](function renderLicenseBadge(license) {
+  switch (license) {
+    case 'MIT': return 'https://img.shields.io/badge/license-MIT-green';
+    case 'APACHE 2.0': return 'https://img.shields.io/badge/license-APACHE2.0-green';
+    case 'GPL 3.0': return 'https://img.shields.io/badge/license-GPL3.0-green';
+    case 'BSD 3': return 'https://img.shields.io/badge/license-BSD3.0-green';
+    case 'None' : return '';
+  };
+})
 
-${data.description}
+  ## Description
 
-## Table of Contents
-* [Installation](#installation)
+  It generates readmes
 
-* [Usage](#usage)
+  ## Table of Contents
 
-* [License](#license)
+  * [Installation](#installation)
 
-* [Contributing](#contributing)
+  * [Usage](#usage)
 
-* [Tests](#tests)
+  * [License](#license)
 
-* [Questions](#questions)
+  * [Contributing](#contributing)
 
-## Installation
+  * [Tests](#tests)
 
-To install necessary dependencies, run the following command:
+  * [Questions](#questions)
 
-${data.install}
+  ## Installation
 
-## Usage
+  To install necessary dependencies, run the following command:
 
-${data.usage}
+  npm install
 
-## License
+  ## Usage
 
-This project is licensed under the ${data.license} license.
+  Be careful.
 
-## Contributing
+  function renderLicenseSection(license) {
+  switch (license) {
+    case 'MIT': return `  ## License
 
-${data.contributing}
+    This project is licensed under the ${data.license} license. To learn more plase visit this [link](${renderLicenseLink})
+  `;
+    case 'APACHE 2.0': return `  ## License
 
-## Tests
+    This project is licensed under the ${data.license} license. To learn more plase visit this [link](${renderLicenseLink})
+  `
+    case 'GPL 3.0': return `  ## License
 
-To run tests, run the following command:
+    This project is licensed under the ${data.license} license. To learn more plase visit this [link](${renderLicenseLink})
+  `
+    case 'BSD 3': return `  ## License
 
-${data.test}
+    This project is licensed under the ${data.license} license. To learn more plase visit this [link](${renderLicenseLink})
+  `
+    case 'None' : return '';
+  };
+}
 
-## Questions
+  ## Contributing
 
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.repo}.
+  PLease do.
+
+  ## Tests
+
+  To run tests, run the following command:
+
+  npm test
+
+  ## Questions
+
+  If you have any questions about the repo, open an issue or contact me directly at none@gmail.com. You can find more of my work at nsantander.
