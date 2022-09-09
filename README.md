@@ -14,7 +14,7 @@ The README generator is a command-line application that generates a professional
     npm i inquirer@8.2.4
     node index.js
 
-Then you will be prompted to enter information pertaining to your project which will be added to the README when it is generated. A new folder called "output" should show up in the file path and in there will be the generated README.md file.
+Then you will be prompted to enter information pertaining to your project which will be added to the README when it is generated. A new folder called "output" should show up in the file path and in there will be the generated README.md file. There is a sample generated README using the app in the "Sample" folder.
 
 ## Visuals 
 
