@@ -1,75 +1,15 @@
-# ReadMe Gen
+# README Generator Refactor
 
-  ![License Badge](function renderLicenseBadge(license) {
-  switch (license) {
-    case 'MIT': return 'https://img.shields.io/badge/license-MIT-green';
-    case 'APACHE 2.0': return 'https://img.shields.io/badge/license-APACHE2.0-green';
-    case 'GPL 3.0': return 'https://img.shields.io/badge/license-GPL3.0-green';
-    case 'BSD 3': return 'https://img.shields.io/badge/license-BSD3.0-green';
-    case 'None' : return '';
-  };
-})
+## Table of Contents
 
-  ## Description
+* [Description](#description)
 
-  It generates readmes
+* [Visuals](#visuals)
 
-  ## Table of Contents
+## Description 
 
-  * [Installation](#installation)
+The README generator is a command-line application that generates a professionally formatted README file from user input using the Inquirer package. This cuts out some of the time it would take for someone to have to fully structure a README file, so that they can focus on the more involved parts of the project.
 
-  * [Usage](#usage)
+## Visuals 
 
-  * [License](#license)
-
-  * [Contributing](#contributing)
-
-  * [Tests](#tests)
-
-  * [Questions](#questions)
-
-  ## Installation
-
-  To install necessary dependencies, run the following command:
-
-  npm install
-
-  ## Usage
-
-  Be careful.
-
-  function renderLicenseSection(license) {
-  switch (license) {
-    case 'MIT': return `  ## License
-
-    This project is licensed under the ${data.license} license. To learn more plase visit this [link](${renderLicenseLink})
-  `;
-    case 'APACHE 2.0': return `  ## License
-
-    This project is licensed under the ${data.license} license. To learn more plase visit this [link](${renderLicenseLink})
-  `
-    case 'GPL 3.0': return `  ## License
-
-    This project is licensed under the ${data.license} license. To learn more plase visit this [link](${renderLicenseLink})
-  `
-    case 'BSD 3': return `  ## License
-
-    This project is licensed under the ${data.license} license. To learn more plase visit this [link](${renderLicenseLink})
-  `
-    case 'None' : return '';
-  };
-}
-
-  ## Contributing
-
-  PLease do.
-
-  ## Tests
-
-  To run tests, run the following command:
-
-  npm test
-
-  ## Questions
-
-  If you have any questions about the repo, open an issue or contact me directly at none@gmail.com. You can find more of my work at nsantander.
+![Link to the video of how to use the video and install necessary packages.]()
