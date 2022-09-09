@@ -9,6 +9,7 @@
 ## Description 
 
 The README generator is a command-line application that generates a professionally formatted README file from user input using the Inquirer package. This cuts out some of the time it would take for someone to have to fully structure a README file, so that they can focus on the more involved parts of the project. To use the app, you must first clone the repo into whatever directory you want to use. Then you need to run a few commands in the terminal.
+
     npm init -y
     npm i inquirer@8.2.4
     node index.js
